@@ -7,7 +7,6 @@ import "react-loading-skeleton/dist/skeleton.css";
 
 import { Link } from "react-router-dom";
 import toast from "react-hot-toast";
-import ProductList from "../pages/ProductList";
 
 const Products = () => {
   const [data, setData] = useState([]);

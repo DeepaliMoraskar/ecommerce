@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const ProductCard = ({ product, onAddToCart }) => {
   // Simulate variants for demo
-  const variants = product.variants || ["Default"];
+  const variants = ["Small", "Medium", "Large"];
   const [selectedVariant, setSelectedVariant] = useState(variants[0]);
   const inStock = product.rating?.count > 0;
 
